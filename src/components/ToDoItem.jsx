@@ -24,7 +24,7 @@ function ToDoItem(props) {
         props.onChecked(props.id);
       }}
     >
-      <li>{props.item}</li>
+      <li>{props.text}</li>
     </div>
   );
 }
